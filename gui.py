@@ -1900,14 +1900,14 @@ class HelpTab:
             about, text="Application created by: ", anchor="e"
         ).grid(column=0, row=0, sticky="nsew")
         LinkLabel(
-            about, link="https://github.com/DevilXD", text="DevilXD"
+            about, link="https://github.com/Aitronssesin", text="DevilXD Modified by Aitronssesin"
         ).grid(column=1, row=0, sticky="nsew")
         # About - repo link
         ttk.Label(about, text="Repository: ", anchor="e").grid(column=0, row=1, sticky="nsew")
         LinkLabel(
             about,
-            link="https://github.com/DevilXD/TwitchDropsMiner",
-            text="https://github.com/DevilXD/TwitchDropsMiner",
+            link="https://github.com/Aitronssesin/TwitchDropsMiner-Unrestricted",
+            text="https://github.com/Aitronssesin/TwitchDropsMiner-Unrestricted",
         ).grid(column=1, row=1, sticky="nsew")
         # About - donate
         ttk.Separator(

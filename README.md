@@ -19,7 +19,7 @@ Every ~60 seconds, the application sends a "minute watched" event to the channel
 
 ### Usage:
 
-- Download and unzip [the latest release](https://github.com/DevilXD/TwitchDropsMiner/releases) - it's recommended to keep it in the folder it comes in.
+- Download and unzip [the latest release](https://github.com/Aitronssesin/TwitchDropsMiner-Unrestricted/releases) - it's recommended to keep it in the folder it comes in.
 - Run it and login into your Twitch account using your username and password, and a 2FA key if you have one setup. It's recommended to avoid having to double-take this step, as you can run into CAPTCHA that will prevent you from trying to log in again for the next 12+ hours. You can retry afterwards though.
 - After a successful login, the app should fetch a list of all available campaigns and games you can mine drops for - you can then select and add games of choice to the Priority List available on the Settings tab, and then press on the `Reload` button to start processing. It will fetch a list of all applicable streams it can watch, and start mining right away. You can also manually switch to a different channel as needed.
 - Make sure to link your Twitch account to game accounts on the [campaigns page](https://www.twitch.tv/drops/campaigns), to enable more games to be mined.
@@ -48,7 +48,7 @@ Every ~60 seconds, the application sends a "minute watched" event to the channel
 - The Linux app is built and distributed using two distinct portable-executable formats: [AppImage](https://appimage.org/) and [PyInstaller](https://pyinstaller.org/).
 - There are no major differences between the two formats, but if you're looking for a recommendation, use the AppImage.
 - The Linux app should work out of the box on any modern distribution, as long as it has `glibc>=2.31` (PyInstaller package) or `glibc>=2.35` (AppImage package), plus a working display server.
-- Every feature of the app is expected to work on Linux just as well as it does on Windows. If you find something that's broken, please [open a new issue](https://github.com/DevilXD/TwitchDropsMiner/issues/new).
+- Every feature of the app is expected to work on Linux just as well as it does on Windows. If you find something that's broken, please [open a new issue](https://github.com/Aitronssesin/TwitchDropsMiner-Unrestricted/issues/new).
 - The size of the Linux app is significantly larger than the Windows app due to the inclusion of the `gtk3` library (and its dependencies), which is required for proper system tray/notifications support.
 - As an alternative to the native Linux app, you can run the Windows app via [Wine](https://www.winehq.org/) instead. It works really well!
 
@@ -67,7 +67,7 @@ Every ~60 seconds, the application sends a "minute watched" event to the channel
 
 ### Advanced Usage:
 
-If you'd be interested in running the latest master from source or building your own executable, see the wiki page explaining how to do so: https://github.com/DevilXD/TwitchDropsMiner/wiki/Setting-up-the-environment,-building-and-running
+If you'd be interested in running the latest master from source or building your own executable, see the wiki page explaining how to do so: https://github.com/Aitronssesin/TwitchDropsMiner-Unrestricted/wiki/Setting-up-the-environment,-building-and-running
 
 ### Project goals:
 
@@ -101,7 +101,7 @@ This means that features such as:
 
 ..., are most likely not going to be a feature, ever. You're welcome to search through the existing issues to comment on your point of view on the relevant matters, where applicable. Otherwise, most of the new issues that go against these goals will be closed and the user will be pointed to this paragraph.
 
-For more context about these goals, please check out these issues: [#161](https://github.com/DevilXD/TwitchDropsMiner/issues/161), [#105](https://github.com/DevilXD/TwitchDropsMiner/issues/105), [#84](https://github.com/DevilXD/TwitchDropsMiner/issues/84)
+For more context about these goals, please check out these issues: [#161](https://github.com/Aitronssesin/TwitchDropsMiner-Unrestricted/issues/161), [#105](https://github.com/Aitronssesin/TwitchDropsMiner-Unrestricted/issues/105), [#84](https://github.com/Aitronssesin/TwitchDropsMiner-Unrestricted/issues/84)
 
 ### Credits:
 

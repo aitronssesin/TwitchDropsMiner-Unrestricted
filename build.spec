@@ -110,5 +110,5 @@ exe = EXE(
     icon="icons/pickaxe.ico",
     bootloader_ignore_signals=False,
     disable_windowed_traceback=False,
-    name="Twitch Drops Miner (by DevilXD)",
+    name="Twitch Drops Miner (by DevilXD Modified by Aitronssesin)",
 )
