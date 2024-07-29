@@ -1,5 +1,5 @@
 ###################################
-# Twitch Drops Miner (by DevilXD Modified by Aitronssesin) #
+# Twitch Drops Miner Unrestricted (by DevilXD Modified by Aitronssesin) #
 ###################################
 
 Available command line arguments:
