@@ -360,7 +360,7 @@ class DropsCampaign:
 
     def can_earn(self, channel: Channel | None = None) -> bool:
         # True if any of the containing drops can be earned
-        return True
+        return self._base_can_earn(channel) and any(drop._base_can_earn() for drop in self.drops)
 
     def can_earn_within(self, stamp: datetime) -> bool:
         # Same as can_earn, but doesn't check the channel
